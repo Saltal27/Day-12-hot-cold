@@ -9,7 +9,9 @@ def hot_cold():
   clear()
   print(logo)
   
-  difficulty = input("Choose difficulty mode:\nEasy ≧◉ᴥ◉≦\n\nHard (ง︡'-'︠)ง\n\nInsane (҂◡̀_◡́)ᕤ\n").lower()
+  difficulty = input("Choose difficulty mode:\n\nEasy ≧◉ᴥ◉≦\n\nHard (ง︡'-'︠)ง\n\nInsane (҂◡̀_◡́)ᕤ\n\n").lower()
+  print("I'm thinking of a number between 1 and 100 ✍(◔◡◔)")
+  
   if difficulty == "easy":
     guesses_number = 10
   elif difficulty == "hard":
